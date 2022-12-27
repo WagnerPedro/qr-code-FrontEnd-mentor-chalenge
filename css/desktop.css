@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* Desktop */
+
+@media screen and (min-width: 1440px) {
+    section {
+        max-width: 375px;
+        overflow: auto;
+        margin: auto;
+        padding: 10px;
+        border-radius: 10px;
+        height: max-content;
+    }
+    
+    section > img {
+        width: 350px;
+        border-radius: 10px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    section p, h1 {
+        text-align: center;
+    }
+}
